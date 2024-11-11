@@ -1,0 +1,47 @@
+body {
+    font-size: 1rem;
+    background: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.controls {
+    margin: 2% 1%;
+}
+
+.game-board {
+    /* set size of game board */
+    width: 65%;
+    min-height: 400px;
+
+    /* centers game board on the screen */
+    margin: 0 auto;
+
+    /* set layout of holes within game board using flexbox */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Pizza {
+    background-color:bisque;
+    min-height: 400px;
+}
+
+.tomato-sauce {
+    background-color: tomato;
+    margin: 10%;
+}
+
+.cheese {
+    background-color: darksalmon;
+    margin: 15%;
+}
+
+.peporoni {
+
+}
