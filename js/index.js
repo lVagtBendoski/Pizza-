@@ -13,6 +13,7 @@ const checkPizza = () => {
         }
     }
     endGame = true;
+    document.getElementById('score').textContent = `Score: ${score}`;
 }
 
 const handleToppings = (topping) =>{
